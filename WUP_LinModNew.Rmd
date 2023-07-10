@@ -150,6 +150,12 @@ cor(SIMS~ARM+GRIP,data=data)
   The correlation is larger than SIMS~ARM and SIMS~GRIP. with all three together makes a larger correlation of 0.73
   
 ### Inferential  (Build 2-dimentional model.3)
+```{r}
+model.3 <- lm(SIMS~ARM+GRIP,data=data)
+summary.lm(model.3)
+```
+
+
 
 #### predict model.3 at target point
   

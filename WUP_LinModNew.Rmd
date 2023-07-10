@@ -173,16 +173,9 @@ anova(model.1, model.3)
 Gives a p-value of .00000499, which does not have any value.It is comparing the residual standard error of the model 1
 
 ```{r}
-anova(model.1)
+anova(model.2, model.3)
 ```
-
-```{r}
-anova(model.2)
-```
-
-```{r}
-anova(model.3)
-```
+The p value is a lot smaller than model.1,model.3. There is a big difference between the data models. Model 3 is better than model 1 and models 3 is better than model 2. That is all based on looking at the p value between the models.
 
 ### Model.2 vs Model.3
 

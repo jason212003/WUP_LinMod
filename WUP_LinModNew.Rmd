@@ -58,6 +58,14 @@ The Numerical results for SIMS~ARM is 0.6860073.This means there is a fair relat
 
 ### Inferential  (Build model.1)
 
+
+```{r}
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
+
+The residual standard error is 1.226, while the r-squared is 0.4706. The comparison between the two, we always look at the adjusted r-squared number. as you put more data in your model, the adjused r-squared will go up.
+
 #### Predict at target point
 
 

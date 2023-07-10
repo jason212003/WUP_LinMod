@@ -175,11 +175,19 @@ Gives a p-value of .00000499, which does not have any value.It is comparing the 
 ```{r}
 anova(model.1)
 ```
- 
+
+```{r}
+anova(model.2)
+```
+
+```{r}
+anova(model.3)
+```
 
 ### Model.2 vs Model.3
 
 
 
 ## Informally compare Model.1 with model.2
+
 
